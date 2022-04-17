@@ -1,0 +1,1 @@
+CREATE TABLE `dbprueba`.`persona` ( `Id` INT NOT NULL AUTO_INCREMENT ,  `Nombre` VARCHAR(50) NOT NULL ,  `Edad` INT NOT NULL ,  `Profesion` VARCHAR(50) NOT NULL ,  `Telefono` INT NOT NULL ,    PRIMARY KEY  (`Id`)) ENGINE = InnoDB;

@@ -1,8 +1,9 @@
-package clase2RepasoDB;
+package com.educacionit.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.sql.Statement;
 
 public class Conexion {
 
@@ -38,9 +39,8 @@ public class Conexion {
 		}
 	
 	} 
-	
-	
-	public static void main(String[] args) {
-		Conexion miConexion = new Conexion();
+
+	public Connection  getConnection() {
+		return conn ;
 	}
 }
