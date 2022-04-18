@@ -12,7 +12,7 @@ public class AppPrincipal {
 		PersonaVO p1 = new PersonaVO("Alex",27, "Profesor", 213141413);
 		
 		PersonaDAO pdao = new PersonaDAO();
-		pdao.registarPersona(p1);
+//		pdao.registarPersona(p1);
 		
 		int opcion; 
 		
@@ -22,6 +22,7 @@ public class AppPrincipal {
 			case 1:
 				JOptionPane.showMessageDialog(null, "Ingrese la opcion 1");
 //				PEDIR LOS DATOS PARA CARGAR UN OBJETO PERSONA 
+//				pdao.registarPersona(p1);
 				break;
 			case 2:
 				JOptionPane.showMessageDialog(null, "Ingrese la opcion 2");
